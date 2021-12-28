@@ -52,10 +52,5 @@ describe('Scenarios where authentication is a pre-requirement', () => {
         .should('be.visible')
         .click()
     }
-
-    /* ==== Generated with Cypress Studio ==== */
-    cy.get('.nav > :nth-child(2) > a').click()
-    cy.get('#email').should('be.visible')
-    /* ==== End Cypress Studio ==== */
   })
 })
